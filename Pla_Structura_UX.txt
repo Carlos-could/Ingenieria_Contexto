@@ -1,0 +1,21 @@
+video: https://www.youtube.com/watch?v=YKJLpgXTxCo&t=310s
+descripcion:
+
+
+¡Hola! Actúa como Arquitecto Principal de UX. Tu tarea es crear un Plan de Estructura UX detallado para una aplicación web diseñada para gestionar un flujo de trabajo de patrocinios en YouTube.
+
+El resultado final debe ser un único archivo en formato Markdown (.md). La estructura de este archivo es crítica: debe usar una lista jerárquica, con sangría y caracteres de estructura en árbol (como ── y └─) para crear un árbol claro, exactamente como el archivo de referencia provisto.
+
+Concepto de la aplicación: Una interfaz tipo Kanban para que un creador gestione acuerdos de patrocinio.
+
+Estructura y contenido del archivo .md: Por favor, crea el plan con las siguientes secciones principales:
+
+Estructura de navegación: Describe el recorrido principal del usuario dentro de la aplicación.
+
+Estructura de la página de inicio de sesión: Detalla el diseño y todos los componentes de la pantalla de login.
+
+Estructura de la página del panel de control (Dashboard): Esta es la vista principal de Kanban. Desglosa su diseño desde el encabezado hasta los detalles individuales de una tarjeta de patrocinio. Asegúrate de listar todas las etapas como columnas dentro de la estructura Kanban.
+
+Estructura del modal “Agregar nuevo acuerdo” (Add New Deal): Describe el diseño y los elementos de formulario del popup modal utilizado para crear un nuevo acuerdo.
+
+El resultado final debe ser un único bloque de texto en el formato markdown especificado, listo para guardarse como un archivo .md. No escribas texto narrativo fuera del plan mismo.

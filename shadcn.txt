@@ -1,0 +1,5 @@
+"Me gustaría crear una interfaz para un sitio web.
+
+El sitio tendría una página de inicio de sesión y luego, antes de eso, el panel de control (asumo que se refiere a 'dashboard').
+
+Básicamente, lo que quiero construir es un lugar con el inicio de sesión, y ellos tienen estos servidores MCP. Abren ese MCP, tienen estas listas de tarjetas de servidores MCP, y si abren uno, entonces tendremos la imagen del servidor MCP en la parte superior, luego algunos detalles, y luego algo de instalación. La instalación también estaría en esas burbujas tipo tarjeta y todo eso. Eso es lo que quiero."

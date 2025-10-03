@@ -1,0 +1,16 @@
+
+
+A partir de estas capturas, quiero que generes un sistema de diseño en formato JSON que
+
+contenga todo lo necesario para replicar este estilo de forma coherente: colores, estructura
+
+visual, tipos de elementos, jerarquía y cualquier patrón relevante que detectes.
+
+No hace falta que describas lo que aparece en las imágenes —solo quiero que analices el
+
+estilo visual.
+
+El objetivo es que otra IA pueda usar ese JSON como base para diseñar una app con este
+
+mismo look, sin copiar el contenido exacto.
+
