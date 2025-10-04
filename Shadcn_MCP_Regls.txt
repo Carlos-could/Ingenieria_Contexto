@@ -1,0 +1,69 @@
+Crear un kanban con Shadcn.
+video: https://www.youtube.com/watch?v=YKJLpgXTxCo&list=LL&index=6
+1, token de github, https://github.com/settings/tokens
+2, incluir servidor mcp Shadcn https://ui.shadcn.com/docs/mcp
+3, incluir reglas
+4, Crear plan de estructura UX
+5, Crear plan de implementacion
+
+--------------------------------------------------
+3,
+--General Rule--
+
+When a task requires building or modifying a user interface, you must use the tools available in the shadcn-ui MCP server.
+
+------------------------
+
+--Planning Rule--
+
+When planning a UI build using shadcn:
+
+Discover Assets: First, use list_components() and list_blocks() to see all available assets in the MCP server.
+
+Map Request to Assets: Analyze the user's request and map the required UI elements to the available components and blocks.
+
+Prioritize Blocks: You should prioritize using blocks (get_block) wherever possible for common, complex UI patterns (e.g., login pages, calendars, dashboards). Blocks provide more structure and accelerate development. Use individual components (get_component) for smaller, more specific needs.
+------------------------
+
+--Implementation Rule--
+
+When implementing the UI:
+
+1. Get a Demo First: Before using a component, you must call the get_component_demo(component_name) tool. This is critical for understanding how the component is used, its required props, and its structure.
+
+2. Retrieve the Code:
+
+For a single component, call get_component(component_name).
+
+For a composite block, call get_block(block_name).
+
+3. Implement Correctly: Integrate the retrieved code into the application, customizing it with the necessary props and logic to fulfill the user's request.
+
+-------------------------------------------------------
+4. Crear plan de estructura UX
+
+¡Hola! Actúa como Arquitecto Principal de UX. Tu tarea es crear un Plan de Estructura UX detallado para una aplicación web diseñada para gestionar un flujo de trabajo de patrocinios en YouTube.
+
+El resultado final debe ser un único archivo en formato Markdown (.md). La estructura de este archivo es crítica: debe usar una lista jerárquica, con sangría y caracteres de estructura en árbol (como ── y └─) para crear un árbol claro, exactamente como el archivo de referencia provisto.
+
+Concepto de la aplicación: Una interfaz tipo Kanban para que un creador gestione acuerdos de patrocinio.
+
+Estructura y contenido del archivo .md: Por favor, crea el plan con las siguientes secciones principales:
+
+Estructura de navegación: Describe el recorrido principal del usuario dentro de la aplicación.
+
+Estructura de la página de inicio de sesión: Detalla el diseño y todos los componentes de la pantalla de login.
+
+Estructura de la página del panel de control (Dashboard): Esta es la vista principal de Kanban. Desglosa su diseño desde el encabezado hasta los detalles individuales de una tarjeta de patrocinio. Asegúrate de listar todas las etapas como columnas dentro de la estructura Kanban.
+
+Estructura del modal “Agregar nuevo acuerdo” (Add New Deal): Describe el diseño y los elementos de formulario del popup modal utilizado para crear un nuevo acuerdo.
+
+El resultado final debe ser un único bloque de texto en el formato markdown especificado, listo para guardarse como un archivo .md. No escribas texto narrativo fuera del plan mismo.
+
+------------------------------------------------------
+
+5, Crear plan de implementacion
+
+Please look at the @UX_Structure_Plan.md and make an ui-implementation using shaden ui as to what components will be used in the ui structure and where. And you should only write the name of the appropriate components to be used. Not the code.
+
+6. Propm: Implementa el plan de implementacion en la app XXX 
